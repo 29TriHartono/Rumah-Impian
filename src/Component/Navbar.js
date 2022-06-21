@@ -1,14 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from './Img/Logo.png';
+import logo from '../Img/Logo.png';
 function Navbar() {
   const [navbarBtn, setNavbarBtn] = useState();
 
-  const [navbarScroll, setNavbarScroll] = useState(true);
+  const [navbarScroll, setNavbarScroll] = useState(false);
 
   const navbarScrolling = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 500) {
       setNavbarScroll(true);
     } else {
       setNavbarScroll(false);
@@ -23,7 +23,7 @@ function Navbar() {
           <h2 className="font-bold">Rumah Impian</h2>
         </NavLink>
         <div className="items-center justify-center gap-4 hidden md:flex">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-impian/Beranda">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-impian">
             Beranda
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/Fitur">
@@ -55,7 +55,7 @@ function Navbar() {
       </div>
       <div className={'md:hidden fixed top-0 transition duration-1000 w-full h-screen translate-x-full bg-DarkGreen z-10 flex items-center justify-center' + (navbarBtn ? ' translate-x-1/2' : 'translate-x-full md:hidden')}>
         <div className="flex flex-col text-white items-start w-full gap-10 px-4">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-impian/Beranda">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-impian/">
             Beranda
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/Fitur">
