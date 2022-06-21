@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className={navbarScroll ? 'fixed w-full text-white bg-DarkGreen z-30 transition duration-700' : 'bg-transparent fixed z-30 w-full text-white'}>
       <div className="w-full h-20  px-setting flex justify-between relative items-center z-20">
-        <NavLink to="/Rumah-impian/Beranda" className="flex items-center justify-center gap-2 md:gap-4">
+        <NavLink to="/Rumah-impian" className="flex items-center justify-center gap-2 md:gap-4">
           <img src={logo} alt="" srcSet="" />
           <h2 className="font-bold">Rumah Impian</h2>
         </NavLink>
@@ -54,7 +54,7 @@ function Navbar() {
       </div>
       <div className={'md:hidden fixed top-0 transition duration-1000 w-full h-screen translate-x-full bg-DarkGreen z-10 flex items-center justify-center' + (navbarBtn ? ' translate-x-0' : 'translate-x-full md:hidden')}>
         <div className="flex flex-col text-white font-semibold items-center justify-center w-full gap-10">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-impian/Beranda">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-impian">
             Beranda
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/layanan">

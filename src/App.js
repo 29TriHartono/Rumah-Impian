@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes basename="/Rumah-Impian">
         <Route>
-          <Route path="/Rumah-Impian/Beranda" exact element={<Beranda />} />
+          <Route path="/Rumah-Impian/" element={<Beranda />} />
           <Route path="/Rumah-Impian/Layanan" element={<Layanan />} />
           <Route path="/Rumah-Impian/Fitur" element={<Fitur />} />
           <Route path="/Rumah-Impian/Kontak" element={<Kontak />} />
