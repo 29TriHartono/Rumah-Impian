@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rumah-Impian/static/css/main.7515cb04.css",
-    "main.js": "/Rumah-Impian/static/js/main.f61e66bc.js",
+    "main.js": "/Rumah-Impian/static/js/main.f033e3d1.js",
     "static/media/Temukan.png": "/Rumah-Impian/static/media/Temukan.3b055016278a85ae3919.png",
     "static/media/bg-konsul.png": "/Rumah-Impian/static/media/bg-konsul.85b83c6e3b114998d149.png",
     "static/media/Header-rumah.png": "/Rumah-Impian/static/media/Header-rumah.1a7b8e208af1fbfc9aeb.png",
@@ -15,10 +15,10 @@
     "static/media/Header-1.png": "/Rumah-Impian/static/media/Header-1.e6cb590e36444ed4a431.png",
     "index.html": "/Rumah-Impian/index.html",
     "main.7515cb04.css.map": "/Rumah-Impian/static/css/main.7515cb04.css.map",
-    "main.f61e66bc.js.map": "/Rumah-Impian/static/js/main.f61e66bc.js.map"
+    "main.f033e3d1.js.map": "/Rumah-Impian/static/js/main.f033e3d1.js.map"
   },
   "entrypoints": [
     "static/css/main.7515cb04.css",
-    "static/js/main.f61e66bc.js"
+    "static/js/main.f033e3d1.js"
   ]
 }
