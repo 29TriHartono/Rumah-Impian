@@ -23,7 +23,7 @@ function Navbar() {
           <h2 className="font-bold">Rumah Impian</h2>
         </NavLink>
         <div className="items-center justify-center gap-4 hidden md:flex">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian">
             Beranda
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/layanan">
@@ -54,7 +54,7 @@ function Navbar() {
       </div>
       <div className={'md:hidden fixed top-0 transition duration-1000 w-full h-screen translate-x-full bg-DarkGreen z-10 flex items-center justify-center' + (navbarBtn ? ' translate-x-0' : 'translate-x-full md:hidden')}>
         <div className="flex flex-col text-white font-semibold items-center justify-center w-full gap-10">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/Beranda">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian">
             Beranda
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/layanan">
