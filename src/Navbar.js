@@ -26,12 +26,13 @@ function Navbar() {
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-impian/Beranda">
             Beranda
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/layanan">
-            Layanan
-          </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/Fitur">
             Fitur
           </NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/layanan">
+            Temukan Rumah
+          </NavLink>
+
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Rumah-Impian/Kontak">
             Kontak
           </NavLink>
@@ -52,16 +53,16 @@ function Navbar() {
           )}
         </div>
       </div>
-      <div className={'md:hidden fixed top-0 transition duration-1000 w-full h-screen translate-x-full bg-DarkGreen z-10 flex items-center justify-center' + (navbarBtn ? ' translate-x-0' : 'translate-x-full md:hidden')}>
-        <div className="flex flex-col text-white font-semibold items-center justify-center w-full gap-10">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-impian">
+      <div className={'md:hidden fixed top-0 transition duration-1000 w-full h-screen translate-x-full bg-DarkGreen z-10 flex items-center justify-center' + (navbarBtn ? ' translate-x-1/2' : 'translate-x-full md:hidden')}>
+        <div className="flex flex-col text-white items-start w-full gap-10 px-4">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-impian/Beranda">
             Beranda
-          </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/layanan">
-            Layanan
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/Fitur">
             Fitur
+          </NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/layanan">
+            Temukan Rumah
           </NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Rumah-Impian/Kontak">
             Kontak

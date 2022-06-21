@@ -26,6 +26,9 @@
   ::placeholder {
     @apply text-GreenColor;
   }
+  .styleKontak {
+    @apply flex items-center justify-center gap-4 hover:text-DarkGreen hover:font-semibold transition duration-500;
+  }
 }
 
 body {
