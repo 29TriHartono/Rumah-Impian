@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route>
-          <Route path="/" exact element={<Beranda />} />
-          <Route path="Layanan" element={<Layanan />} />
-          <Route path="Fitur" element={<Fitur />} />
-          <Route path="Kontak" element={<Kontak />} />
+          <Route path="/Rumah-Impian/" exact element={<Beranda />} />
+          <Route path="/Rumah-Impian/Layanan" element={<Layanan />} />
+          <Route path="/Rumah-Impian/Fitur" element={<Fitur />} />
+          <Route path="/Rumah-Impian/Kontak" element={<Kontak />} />
         </Route>
       </Routes>
       <Footer />
