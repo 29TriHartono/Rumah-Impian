@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Navbar';
+import { Routes, Route } from 'react-router-dom';
+import Beranda from './Beranda/Beranda';
+import Footer from './Footer';
+import Layanan from './Layanan/Layanan';
+import Fitur from './Fitur/fiturRumah';
+import Kontak from './Kontak/Kontak';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-BackgroundColor font-Poppins">
+      <Navbar />
+      <Routes>
+        <Route>
+          <Route path="/" exact element={<Beranda />} />
+          <Route path="Layanan" element={<Layanan />} />
+          <Route path="Fitur" element={<Fitur />} />
+          <Route path="Kontak" element={<Kontak />} />
+        </Route>
+      </Routes>
+      <Footer />
     </div>
   );
 }
