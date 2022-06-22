@@ -23,17 +23,17 @@ function Navbar() {
           <h2 className="font-bold">Rumah Impian</h2>
         </NavLink>
         <div className="items-center justify-center gap-4 hidden md:flex">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="Beranda">
             Beranda
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Fitur">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="Fitur">
             Fitur
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/layanan">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="layanan">
             Temukan Rumah
           </NavLink>
 
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="/Kontak">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'no-underline hover:underline')} to="Kontak">
             Kontak
           </NavLink>
         </div>
@@ -55,16 +55,16 @@ function Navbar() {
       </div>
       <div className={'md:hidden fixed top-0 transition duration-1000 w-full h-screen translate-x-full bg-DarkGreen z-10 flex items-center justify-center' + (navbarBtn ? ' translate-x-1/2' : 'translate-x-full md:hidden')}>
         <div className="flex flex-col text-white items-start w-full gap-10 px-4">
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="Beranda">
             Beranda
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Fitur">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="Fitur">
             Fitur
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/layanan">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="layanan">
             Temukan Rumah
           </NavLink>
-          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="/Kontak">
+          <NavLink className={({ isActive }) => (isActive ? 'activeNavlink' : 'none')} to="Kontak">
             Kontak
           </NavLink>
         </div>

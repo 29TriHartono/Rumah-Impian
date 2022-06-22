@@ -5,7 +5,6 @@ import Footer from './Component/Footer';
 import Layanan from './Layanan/Layanan';
 import Fitur from './Fitur/fiturRumah';
 import Kontak from './Kontak/Kontak';
-
 function App() {
   return (
     <div className="App bg-BackgroundColor font-Poppins">
@@ -13,9 +12,10 @@ function App() {
       <Routes>
         <Route>
           <Route path="/" element={<Beranda />} />
-          <Route path="/Layanan" element={<Layanan />} />
-          <Route path="/Fitur" element={<Fitur />} />
-          <Route path="/Kontak" element={<Kontak />} />
+          <Route path="Beranda" element={<Beranda />} />
+          <Route path="Layanan" element={<Layanan />} />
+          <Route path="Fitur" element={<Fitur />} />
+          <Route path="Kontak" element={<Kontak />} />
         </Route>
       </Routes>
       <Footer />

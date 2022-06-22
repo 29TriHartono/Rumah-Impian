@@ -2,6 +2,7 @@ import React from 'react';
 import Rumah from '../Img/Header-rumah.png';
 import HeaderSatu from '../Img/Header-1.png';
 import HeaderDua from '../Img/Header-2.png';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
@@ -17,10 +18,14 @@ function Header() {
           hadir untuk temukan rumah terbaik. untuk dijual maupun di sewa dengan sumbber terpercaya
         </h3>
         <div className="flex items-center gap-4">
-          <button className="py-2 px-4 bg-white text-green-900 font-bold ">Temukan Rumah</button>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-2 stroke-white" fill="none" viewBox="0 0 24 24">
-            <path stokelinejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
+          <NavLink to="Layanan" className="py-2 px-4 bg-white text-green-900 font-bold ">
+            Temukan Rumah
+          </NavLink>
+          <NavLink to="/Layanan">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 stroke-2 stroke-white" fill="none" viewBox="0 0 24 24">
+              <path stokelinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </NavLink>
         </div>
       </div>
     </div>
