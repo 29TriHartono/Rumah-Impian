@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rumah-Impian/static/css/main.5d9467e8.css",
-    "main.js": "/Rumah-Impian/static/js/main.ef90d253.js",
+    "main.css": "/Rumah-Impian/static/css/main.0c638c79.css",
+    "main.js": "/Rumah-Impian/static/js/main.aa842c6a.js",
     "static/media/Temukan.png": "/Rumah-Impian/static/media/Temukan.3b055016278a85ae3919.png",
     "static/media/bg-konsul.png": "/Rumah-Impian/static/media/bg-konsul.85b83c6e3b114998d149.png",
     "static/media/Header-rumah.png": "/Rumah-Impian/static/media/Header-rumah.1a7b8e208af1fbfc9aeb.png",
@@ -14,11 +14,11 @@
     "static/media/Layanan-icon-3.svg": "/Rumah-Impian/static/media/Layanan-icon-3.ebb089890d989ea8472fcf5fbc7b31de.svg",
     "static/media/Header-1.png": "/Rumah-Impian/static/media/Header-1.e6cb590e36444ed4a431.png",
     "index.html": "/Rumah-Impian/index.html",
-    "main.5d9467e8.css.map": "/Rumah-Impian/static/css/main.5d9467e8.css.map",
-    "main.ef90d253.js.map": "/Rumah-Impian/static/js/main.ef90d253.js.map"
+    "main.0c638c79.css.map": "/Rumah-Impian/static/css/main.0c638c79.css.map",
+    "main.aa842c6a.js.map": "/Rumah-Impian/static/js/main.aa842c6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d9467e8.css",
-    "static/js/main.ef90d253.js"
+    "static/css/main.0c638c79.css",
+    "static/js/main.aa842c6a.js"
   ]
 }
