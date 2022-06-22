@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App bg-BackgroundColor font-Poppins">
       <Navbar />
-      <Routes basename="/Rumah-Impian">
+      <Routes>
         <Route>
           <Route path="/" element={<Beranda />} />
           <Route path="/Layanan" element={<Layanan />} />
