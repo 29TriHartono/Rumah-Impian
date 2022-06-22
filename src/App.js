@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App bg-BackgroundColor font-Poppins">
       <Navbar />
-      <Routes basename="/Rumah-Impian/">
+      <Routes basename="/Rumah-Impian">
         <Route>
-          <Route path="/Rumah-Impian/" element={<Beranda />} />
-          <Route path="/Rumah-Impian/Layanan" element={<Layanan />} />
-          <Route path="/Rumah-Impian/Fitur" element={<Fitur />} />
-          <Route path="/Rumah-Impian/Kontak" element={<Kontak />} />
+          <Route path="/" element={<Beranda />} />
+          <Route path="/Layanan" element={<Layanan />} />
+          <Route path="/Fitur" element={<Fitur />} />
+          <Route path="/Kontak" element={<Kontak />} />
         </Route>
       </Routes>
       <Footer />
